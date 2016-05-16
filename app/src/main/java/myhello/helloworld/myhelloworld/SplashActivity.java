@@ -3,13 +3,12 @@ package myhello.helloworld.myhelloworld;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        //Modifying the activity or project...
+        setContentView(R.layout.activity_splash);
+        //
     }
 }
